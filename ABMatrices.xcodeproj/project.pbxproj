@@ -11,6 +11,8 @@
 		9AEBA0F51C3774CF0059C2B8 /* ABMatrices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AEBA0EA1C3774CF0059C2B8 /* ABMatrices.framework */; };
 		9AEBA0FA1C3774CF0059C2B8 /* ABMatricesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEBA0F91C3774CF0059C2B8 /* ABMatricesTests.swift */; };
 		9AEBA1071C37766D0059C2B8 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 9AEBA1061C37766D0059C2B8 /* .gitignore */; };
+		9AEBA10B1C3778870059C2B8 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 9AEBA10A1C3778870059C2B8 /* LICENSE */; };
+		9AEBA10F1C377A900059C2B8 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 9AEBA10E1C377A900059C2B8 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +33,8 @@
 		9AEBA0F91C3774CF0059C2B8 /* ABMatricesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABMatricesTests.swift; sourceTree = "<group>"; };
 		9AEBA0FB1C3774CF0059C2B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AEBA1061C37766D0059C2B8 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .gitignore; path = ABMatrices/.gitignore; sourceTree = "<group>"; };
+		9AEBA10A1C3778870059C2B8 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9AEBA10E1C377A900059C2B8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				9AEBA1061C37766D0059C2B8 /* .gitignore */,
+				9AEBA10A1C3778870059C2B8 /* LICENSE */,
+				9AEBA10E1C377A900059C2B8 /* README.md */,
 				9AEBA0EC1C3774CF0059C2B8 /* ABMatrices */,
 				9AEBA0F81C3774CF0059C2B8 /* ABMatricesTests */,
 				9AEBA0EB1C3774CF0059C2B8 /* Products */,
@@ -180,6 +186,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AEBA10B1C3778870059C2B8 /* LICENSE in Resources */,
 				9AEBA1071C37766D0059C2B8 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -198,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AEBA10F1C377A900059C2B8 /* README.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
