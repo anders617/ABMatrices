@@ -1,10 +1,3 @@
-//
-//  ABMatrixTests.swift
-//  ABMatrixTests
-//
-//  Created by Anders Boberg on 1/1/16.
-//  Copyright © 2016 Anders boberg. All rights reserved.
-//
 
 import XCTest
 @testable import ABMatrices

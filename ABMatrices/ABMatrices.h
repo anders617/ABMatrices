@@ -1,11 +1,3 @@
-//
-//  ABMatrices.h
-//  ABMatrices
-//
-//  Created by Anders Boberg on 1/1/16.
-//  Copyright © 2016 Anders boberg. All rights reserved.
-//
-
 #import <Cocoa/Cocoa.h>
 
 //! Project version number for ABMatrices.
