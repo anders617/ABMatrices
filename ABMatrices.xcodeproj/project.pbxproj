@@ -13,6 +13,14 @@
 		9AEBA1071C37766D0059C2B8 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 9AEBA1061C37766D0059C2B8 /* .gitignore */; };
 		9AEBA10B1C3778870059C2B8 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 9AEBA10A1C3778870059C2B8 /* LICENSE */; };
 		9AEBA10F1C377A900059C2B8 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 9AEBA10E1C377A900059C2B8 /* README.md */; };
+		9AEBA1181C377B4F0059C2B8 /* ABArithmeticFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEBA1101C377B4F0059C2B8 /* ABArithmeticFunction.swift */; };
+		9AEBA1191C377B4F0059C2B8 /* ABArithmeticTypeMatrixOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEBA1111C377B4F0059C2B8 /* ABArithmeticTypeMatrixOperations.swift */; };
+		9AEBA11A1C377B4F0059C2B8 /* ABArithmeticTypeVectorOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEBA1121C377B4F0059C2B8 /* ABArithmeticTypeVectorOperations.swift */; };
+		9AEBA11B1C377B4F0059C2B8 /* ABAugmentedMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEBA1131C377B4F0059C2B8 /* ABAugmentedMatrix.swift */; };
+		9AEBA11C1C377B4F0059C2B8 /* ABMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEBA1141C377B4F0059C2B8 /* ABMatrix.swift */; };
+		9AEBA11D1C377B4F0059C2B8 /* ABMatrixFunctionOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEBA1151C377B4F0059C2B8 /* ABMatrixFunctionOperator.swift */; };
+		9AEBA11E1C377B4F0059C2B8 /* ABMatrixOperableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEBA1161C377B4F0059C2B8 /* ABMatrixOperableType.swift */; };
+		9AEBA11F1C377B4F0059C2B8 /* ABVector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEBA1171C377B4F0059C2B8 /* ABVector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,14 @@
 		9AEBA1061C37766D0059C2B8 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .gitignore; path = ABMatrices/.gitignore; sourceTree = "<group>"; };
 		9AEBA10A1C3778870059C2B8 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		9AEBA10E1C377A900059C2B8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9AEBA1101C377B4F0059C2B8 /* ABArithmeticFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABArithmeticFunction.swift; sourceTree = "<group>"; };
+		9AEBA1111C377B4F0059C2B8 /* ABArithmeticTypeMatrixOperations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABArithmeticTypeMatrixOperations.swift; sourceTree = "<group>"; };
+		9AEBA1121C377B4F0059C2B8 /* ABArithmeticTypeVectorOperations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABArithmeticTypeVectorOperations.swift; sourceTree = "<group>"; };
+		9AEBA1131C377B4F0059C2B8 /* ABAugmentedMatrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABAugmentedMatrix.swift; sourceTree = "<group>"; };
+		9AEBA1141C377B4F0059C2B8 /* ABMatrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABMatrix.swift; sourceTree = "<group>"; };
+		9AEBA1151C377B4F0059C2B8 /* ABMatrixFunctionOperator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABMatrixFunctionOperator.swift; sourceTree = "<group>"; };
+		9AEBA1161C377B4F0059C2B8 /* ABMatrixOperableType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABMatrixOperableType.swift; sourceTree = "<group>"; };
+		9AEBA1171C377B4F0059C2B8 /* ABVector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABVector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +96,14 @@
 		9AEBA0EC1C3774CF0059C2B8 /* ABMatrices */ = {
 			isa = PBXGroup;
 			children = (
+				9AEBA1101C377B4F0059C2B8 /* ABArithmeticFunction.swift */,
+				9AEBA1111C377B4F0059C2B8 /* ABArithmeticTypeMatrixOperations.swift */,
+				9AEBA1121C377B4F0059C2B8 /* ABArithmeticTypeVectorOperations.swift */,
+				9AEBA1131C377B4F0059C2B8 /* ABAugmentedMatrix.swift */,
+				9AEBA1141C377B4F0059C2B8 /* ABMatrix.swift */,
+				9AEBA1151C377B4F0059C2B8 /* ABMatrixFunctionOperator.swift */,
+				9AEBA1161C377B4F0059C2B8 /* ABMatrixOperableType.swift */,
+				9AEBA1171C377B4F0059C2B8 /* ABVector.swift */,
 				9AEBA0ED1C3774CF0059C2B8 /* ABMatrices.h */,
 				9AEBA0EF1C3774CF0059C2B8 /* Info.plist */,
 			);
@@ -205,7 +229,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AEBA11B1C377B4F0059C2B8 /* ABAugmentedMatrix.swift in Sources */,
+				9AEBA11E1C377B4F0059C2B8 /* ABMatrixOperableType.swift in Sources */,
+				9AEBA11C1C377B4F0059C2B8 /* ABMatrix.swift in Sources */,
+				9AEBA1191C377B4F0059C2B8 /* ABArithmeticTypeMatrixOperations.swift in Sources */,
+				9AEBA1181C377B4F0059C2B8 /* ABArithmeticFunction.swift in Sources */,
 				9AEBA10F1C377A900059C2B8 /* README.md in Sources */,
+				9AEBA11F1C377B4F0059C2B8 /* ABVector.swift in Sources */,
+				9AEBA11D1C377B4F0059C2B8 /* ABMatrixFunctionOperator.swift in Sources */,
+				9AEBA11A1C377B4F0059C2B8 /* ABArithmeticTypeVectorOperations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
