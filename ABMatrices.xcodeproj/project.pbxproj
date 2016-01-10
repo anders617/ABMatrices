@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A07812C1C3C8024006BD859 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A07812B1C3C8024006BD859 /* Package.swift */; };
 		9AEBA0EE1C3774CF0059C2B8 /* ABMatrices.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AEBA0ED1C3774CF0059C2B8 /* ABMatrices.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9AEBA0F51C3774CF0059C2B8 /* ABMatrices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AEBA0EA1C3774CF0059C2B8 /* ABMatrices.framework */; };
 		9AEBA0FA1C3774CF0059C2B8 /* ABMatricesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEBA0F91C3774CF0059C2B8 /* ABMatricesTests.swift */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A07812B1C3C8024006BD859 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		9AEBA0EA1C3774CF0059C2B8 /* ABMatrices.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ABMatrices.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AEBA0ED1C3774CF0059C2B8 /* ABMatrices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ABMatrices.h; sourceTree = "<group>"; };
 		9AEBA0EF1C3774CF0059C2B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 		9AEBA0E01C3774CF0059C2B8 = {
 			isa = PBXGroup;
 			children = (
+				9A07812B1C3C8024006BD859 /* Package.swift */,
 				9AEBA1061C37766D0059C2B8 /* .gitignore */,
 				9AEBA10A1C3778870059C2B8 /* LICENSE */,
 				9AEBA10E1C377A900059C2B8 /* README.md */,
@@ -235,6 +238,7 @@
 				9AEBA1191C377B4F0059C2B8 /* ABArithmeticTypeMatrixOperations.swift in Sources */,
 				9AEBA1181C377B4F0059C2B8 /* ABArithmeticFunction.swift in Sources */,
 				9AEBA10F1C377A900059C2B8 /* README.md in Sources */,
+				9A07812C1C3C8024006BD859 /* Package.swift in Sources */,
 				9AEBA11F1C377B4F0059C2B8 /* ABVector.swift in Sources */,
 				9AEBA11D1C377B4F0059C2B8 /* ABMatrixFunctionOperator.swift in Sources */,
 				9AEBA11A1C377B4F0059C2B8 /* ABArithmeticTypeVectorOperations.swift in Sources */,
@@ -358,6 +362,7 @@
 				INFOPLIST_FILE = ABMatrices/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.AndersBoberg.ABMatrices;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -376,6 +381,7 @@
 				INFOPLIST_FILE = ABMatrices/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.AndersBoberg.ABMatrices;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -423,6 +429,7 @@
 				9AEBA1001C3774CF0059C2B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AEBA1011C3774CF0059C2B8 /* Build configuration list for PBXNativeTarget "ABMatricesTests" */ = {
 			isa = XCConfigurationList;
@@ -431,6 +438,7 @@
 				9AEBA1031C3774CF0059C2B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
