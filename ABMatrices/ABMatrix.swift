@@ -90,14 +90,14 @@ public struct ABMatrix <T>:CustomStringConvertible,ArrayLiteralConvertible {
     public mutating func insertRow(row: ABVector<T>, atRowIndex rowIndex:Int) {
         assert(row.count == innerColumnCount, "Row:\(row.count) innerColumnCount:\(innerColumnCount)\nRow must have compatible dimensions with matrix")
         grid.insertContentsOf(row.cells, at: index(rowIndex,0))
-        innerRowCount++
+        innerRowCount += 1
     }
     
     public mutating func removeRow(rowIndex:Int) {
         let start = index(rowIndex,0)
         let end = index(rowIndex,innerColumnCount-1)
         grid.removeRange(start...end)
-        innerRowCount--
+        innerRowCount -= 1
     }
     
     public mutating func appendRow(row: ABVector<T>) {
@@ -111,14 +111,14 @@ public struct ABMatrix <T>:CustomStringConvertible,ArrayLiteralConvertible {
         for rowNum in 0..<column.count {
             grid.insert(column[rowNum], atIndex: index(rowNum, columnIndex) + rowNum)
         }
-        innerColumnCount++
+        innerColumnCount += 1
     }
     
     public mutating func removeColumn(columnIndex:Int) {
         for rowNum in 0..<innerRowCount {
             grid.removeAtIndex(index(rowNum, columnIndex) - rowNum)
         }
-        innerColumnCount--
+        innerColumnCount -= 1
     }
     
     public mutating func appendColumn(column:ABVector<T>) {
