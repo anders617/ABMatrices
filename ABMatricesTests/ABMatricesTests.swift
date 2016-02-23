@@ -20,6 +20,11 @@ class ABMatrixTests: XCTestCase {
         super.tearDown()
     }
     
+    func testGet() {
+        XCTAssert(matrix[2,1] == 8, "Get failed")
+        
+    }
+    
     func testABMatrixSize() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
@@ -28,7 +33,7 @@ class ABMatrixTests: XCTestCase {
     }
     
     func testRowInsertion() {
-        matrix.insertRow([5,5,5], atRowIndex: 3)
+        matrix.insertRow([5,5,5], atIndex: 3)
         XCTAssert(matrix == [
                 [1,2,3],
                 [4,5,6],
@@ -39,7 +44,7 @@ class ABMatrixTests: XCTestCase {
     }
     
     func testColumnInsertion() {
-        matrix.insertColumn([5,5,5], atColumnIndex: 1)
+        matrix.insertColumn([5,5,5], atIndex: 1)
         XCTAssert(matrix == [
                 [1,5,2,3],
                 [4,5,5,6],
